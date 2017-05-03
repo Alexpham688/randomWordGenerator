@@ -1,25 +1,24 @@
 .fancy1 {
 	color:#DD0BF2;
-	font-family: comic sans ms century gotchic sans-serif;
-	font-size:2.3em;
+	font-family: comic sans ms;
+	font-size:2.5em;
 	font-weight:bold;
 }
 .fancy2 {
 	color: red;
-	font-size: 1.7em;
+	font-size: 1.6em;
 
 }
 .nice {
 	font-family: helvetica;
 	font-size:2em;
-	color: #6202FF;
 
 }
 p {
 	font-family: impact  verdana sans-serif;
 	font-weight:bold;
 	font-size:1.2em;
-	color: green;
+
 }
 #container {
 	border: solid 2px orange;
@@ -27,4 +26,12 @@ p {
 	width: 450px;
 	margin: 0 auto;
 	background-color:black;
+}
+body {
+	background-image:url("image.jpg");
+	background-size:cover;
+}
+h1 {
+	font-family: comic sans ms;
+	text-align: center;
 }

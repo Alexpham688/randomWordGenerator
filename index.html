@@ -5,15 +5,15 @@
 		<link rel="stylesheet" href="style.css"/>
 	</head>
 	<body ng-app ="ourModule" ng-controller="ourController">
-		<div>
+		<div id="container">
 			<button ng-click="addWord()">Word</button>
-			<button ng-click="addFancyWord()">Word with Decorations</button>
+			<button ng-click="addsFancyWord()">Word with Decorations</button>
 			<button ng-click ="addWords()">More Words</button>
 			<button ng-click="addFancyWords()">More Words with Decorations</button>
 		</div>
 		<div>
 			<p>
-				<span class="ng-class: word.cls" ng-repeat="word in displayWords track by $index">{{ word.text }}</span>
+				<span class="ng-class: word.cls" ng-repeat="word in displayWords track by $index">{{ word.text   }} </span>
 			</p>
 		</div>
 		<script src="lib/angular.min.js"></script>
